@@ -1,0 +1,110 @@
+.backround{
+background-image: url(../media/bubbles.jpg);
+width: 100%;
+background-size:cover;
+height: 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+.backround img {
+    margin-left: 400px;
+    border-radius: 50%;
+    width: 40%;
+    
+}
+.link{
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+body{
+background-color: #000;
+
+}
+.fly-in-text {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+.fly-in-text li {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: open Sans, Arial;
+    color: antiquewhite;
+}
+.top-bar{
+    border: solid 10px grey;
+   width: 100%;
+   padding: 378 x 580;
+   margin: 80px;
+   animation: grow 3s;
+
+}
+@keyframes grow{
+    0%{
+        height: 0%; width: 0%;
+    }
+    100%{ 
+        width: 40%;
+    }
+}
+.hero{
+background: gray;
+font-size: 170%;
+
+}
+.lorem1{
+    border: grey 5px solid;
+}
+.lorem2{
+    border: grey 5px solid;
+
+}
+.lorem3{
+    border: grey 5px solid;
+}
+.info{
+    background-image: url(../media/bubbles.jpg);
+    margin: 20px 0 20px 0;
+}
+h2{
+   color: beige;
+}
+.products{
+    background-image: url(../media/bubbles.jpg);
+}
+p{
+    color: beige;
+}
+.col-sm-5{ 
+    color: azure;
+    font-size: 170%;
+
+}
+.Contact{
+    color: beige;
+}
+.Info{
+    color: beige;
+}
+footer a {
+    color: beige;
+}
+
+footer li{
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+
+
+
+
+    
+
+
+
+
